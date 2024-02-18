@@ -2,6 +2,7 @@ import GovernmentSignUp from "./GovernmentSignUp";
 import InstitutionSignUp from "./InstitutionSignUp";
 import StudentSignUp from "./StudentSignUp";
 import LoginComponent from "./Login";
+import "../../assets/CSS/Registration/container.css";
 import { useState } from "react";
 
 const Container = () => {

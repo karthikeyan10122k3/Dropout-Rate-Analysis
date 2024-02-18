@@ -1,3 +1,5 @@
+import "../../assets/CSS/Registration/selectState.css";
+
 const SelectState = () => {
   return (
     <div className="input-field">

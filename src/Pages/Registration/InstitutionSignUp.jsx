@@ -1,4 +1,5 @@
 import SelectState from "./SelectState";
+import "../../assets/CSS/Registration/institutionSignUp.css";
 
 const InstitutionSignUp = () => {
   return (

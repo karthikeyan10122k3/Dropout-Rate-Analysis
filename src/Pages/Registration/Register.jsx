@@ -1,5 +1,6 @@
-import "../../App.css";
-import Container from "../Register/Container";
+import React from "react";
+import "../../assets/CSS/register.css";
+import Container from "./Container";
 
 function Register() {
   return (

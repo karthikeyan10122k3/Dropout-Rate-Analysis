@@ -1,3 +1,5 @@
+import "../../assets/CSS/Registration/login.css";
+
 const LoginComponent = ({ handleSignupClick }) => {
   return (
     <div className="form signup">
