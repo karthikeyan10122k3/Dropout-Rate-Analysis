@@ -36,8 +36,6 @@ const SelectState = () => {
         <option value="Uttarakhand">Uttarakhand</option>
         <option value="West Bengal">West Bengal</option>
       </select>
-
-      <i className="uil uil-envelope icon" />
     </div>
   );
 };

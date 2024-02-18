@@ -1,5 +1,4 @@
 import Content from "./Pages/Home/Content";
-import "./assets/CSS/home/homePage.css";
 
 function HomePage() {
   return (

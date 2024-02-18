@@ -1,26 +1,9 @@
-.input-field {
-  margin-bottom: 20px;
-}
-
-.input-field select {
-  width: calc(100% - 10px); /* Adjusting for border */
-  padding: 10px;
-  border: 1px solid #ccc;
+.select-field select.custom-select {
+  width: 300px;
+  padding: 10px; 
+  font-size: 14px; 
+  margin-bottom: 15px;
+  border: 1px solid #ccc; 
   border-radius: 5px;
-}
-
-/* Style for select dropdown arrow */
-.input-field select::-ms-expand {
-  display: none;
-}
-
-.input-field select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-image: url('data:image/svg+xml,\
-    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="%23444"><path d="M30.667 10.667l-14.667 14.667-14.667-14.667h29.333z"/></svg>'); 
-  background-repeat: no-repeat;
-  background-position: right 10px top 50%;
-  background-size: 20px;
+  background-color: #f9f9f9; 
 }

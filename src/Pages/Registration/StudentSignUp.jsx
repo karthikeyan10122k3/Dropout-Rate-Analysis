@@ -9,28 +9,22 @@ const StudentSignUp = () => {
       <form action="#">
         <div className="input-field">
           <input type="text" placeholder="Enter your name" required />
-          <i className="uil uil-user" />
         </div>
         <div className="input-field">
           <input type="text" placeholder="Enter your email" required />
-          <i className="uil uil-envelope icon" />
         </div>
         <div className="input-field">
-          <input type="tel" placeholder="Enter mobile number" required />
-          <i className="uil uil-envelope icon" />
+          <input type="text" placeholder="Enter mobile number" required />
         </div>
         <SelectState />
         <div className="input-field">
           <input type="text" placeholder="Enter Institute name" required />
-          <i className="uil uil-envelope icon" />
         </div>
         <div className="input-field">
           <input type="text" placeholder="Enter Institute code" required />
-          <i className="uil uil-envelope icon" />
         </div>
         <div className="input-field">
           <input type="text" placeholder="Enter EMIS Number" required />
-          <i className="uil uil-envelope icon" />
         </div>
         <div className="checkbox-text">
           <div className="checkbox-content">

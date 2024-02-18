@@ -1,6 +1,8 @@
 import Header from "../../assets/Layout/Header";
 import Footer from "../../assets/Layout/Footer";
 
+import "../../assets/CSS/home/homePage.css";
+
 const Content = () => {
   return (
     <>
