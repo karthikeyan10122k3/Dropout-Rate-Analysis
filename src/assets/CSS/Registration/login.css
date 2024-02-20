@@ -1,5 +1,3 @@
-
-
 .form {
     max-width: 400px;
     margin: 0 auto;
@@ -23,20 +21,27 @@
     color: #007bff; 
   }
   
-  .input-field input,
-  .input-field select {
+  .inputField input,
+  .inputField select {
     width: calc(100% - 10px); 
     padding: 10px;
     border: 1px solid #007bff; 
     border-radius: 5px;
   }
   
-  .checkbox-content label.text {
+  .checkboxContent label.text {
     font-size: 14px;
     color: #007bff; 
   }
+  .checkbox-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  .forgot-password a{
+    color: red;
+  }
   
-  .button a {
+  .input-field input[type="button"]{
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff; 
@@ -46,7 +51,7 @@
     transition: background-color 0.3s;
   }
   
-  .button a:hover {
+  .input-field input[type="button"] {
     background-color: #0056b3;
   }
   

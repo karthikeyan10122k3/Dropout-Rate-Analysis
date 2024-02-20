@@ -1,17 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import HomePage from "./HomePage";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-const contentRouter = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage />,
-  },
-]);
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import routing from './Router/routing';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={contentRouter} />
+    <Router>
+      {routing}
+    </Router>
   </React.StrictMode>
 );

@@ -1,19 +1,19 @@
-import "../CSS/header_footer.css";
+import headerStyle from "../CSS/layout/header_footer.module.css";
 
 const Header = ({ first, second, third, forth }) => {
   return (
     <header>
-      <div className="container">
-        <div className="navbar">
-          <div className="logo">
+      <div className={headerStyle.container}>
+        <div className={headerStyle.navbar}>
+          <div className={headerStyle.logo}>
             <img src="/Icon.png" alt="icon" />
           </div>
           <nav>
-            <div className="btn">
+            <div className={headerStyle.btn}>
               <i className="fa fa-times close-btn" />
             </div>
             <li>
-              <a href="#">{first}</a>
+              <a style={{textDecoration: "underline"}} href="#">{first}</a>
             </li>
             <li>
               <a href="#">{second}</a>
@@ -22,10 +22,10 @@ const Header = ({ first, second, third, forth }) => {
               <a href="#">{third}</a>
             </li>
             <li>
-              <a href="#">{forth}</a>
+              <a href="http://localhost:5173/contactUs">{forth}</a>
             </li>
           </nav>
-          <div className="btn">
+          <div className={headerStyle.btn}>
             <i className="fa fa-bars menu-btn" />
           </div>
         </div>

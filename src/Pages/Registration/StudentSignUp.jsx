@@ -5,7 +5,6 @@ const StudentSignUp = () => {
   return (
     <div className="form signup">
       <p>Student signin</p>
-      <span className="title">Registration</span>
       <form action="#">
         <div className="input-field">
           <input type="text" placeholder="Enter your name" required />

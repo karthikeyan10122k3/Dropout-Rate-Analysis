@@ -31,17 +31,12 @@
     width: 100%;
     padding: 10px;
     padding-right: 35px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
   }
   
   .gov-input {
     position: relative;
-  }
-  
-  .gov-input input[type="password"] {
-    padding-right: 35px;
   }
   
   .password {
@@ -59,6 +54,15 @@
   .button {
     text-align: center;
   }
+
+
+.login-signup{
+  display: flex;
+  justify-content: center;
+}
+.signup-link{
+  color: #007bff;
+}
   
   .button a {
     display: inline-block;

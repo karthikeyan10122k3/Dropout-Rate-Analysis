@@ -1,6 +1,6 @@
 import React from "react";
-import "../../assets/CSS/register.css";
-import Container from "./Container";
+import "../../assets/CSS/Registration/register.css";
+import RegisterContent from "./RegisterContent";
 
 function Register() {
   return (
@@ -9,7 +9,7 @@ function Register() {
         rel="stylesheet"
         href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
       />
-      <Container />
+      <RegisterContent />
     </div>
   );
 }

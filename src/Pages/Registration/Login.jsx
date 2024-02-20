@@ -3,12 +3,10 @@ import "../../assets/CSS/Registration/login.css";
 const LoginComponent = ({ handleSignupClick }) => {
   return (
     <div className="form signup">
-      <p>Government Authority signin</p>
       <span className="title">Login</span>
       <form action="#">
         <div className="input-field">
           <input type="text" placeholder="Enter your email" required />
-          <i className="uil uil-envelope icon"></i>
         </div>
         <div className="input-field">
           <input
@@ -17,8 +15,6 @@ const LoginComponent = ({ handleSignupClick }) => {
             placeholder="Enter your password"
             required
           />
-          <i className="uil uil-lock icon"></i>
-          <i className="uil uil-eye-slash showHidePw"></i>
         </div>
         <div className="checkbox-text">
           <div className="checkbox-content">
@@ -27,9 +23,11 @@ const LoginComponent = ({ handleSignupClick }) => {
               Remember me
             </label>
           </div>
-          <a href="#" className="text">
-            Forgot password?
-          </a>
+          <div className="forgot-password">
+            <a href="#" className="text">
+              Forgot password?
+            </a>
+          </div>
         </div>
         <div className="input-field button">
           <input type="button" value="Login" />

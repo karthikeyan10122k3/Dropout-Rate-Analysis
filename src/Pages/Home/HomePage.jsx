@@ -1,9 +1,9 @@
-import Content from "./Pages/Home/Content";
+import HomePageContent from "./HomePageContent";
 
 function HomePage() {
   return (
     <div className="App">
-      <Content />
+      <HomePageContent />
     </div>
   );
 }
